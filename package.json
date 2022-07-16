@@ -1,0 +1,24 @@
+{
+  "name": "rings-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/sdk.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Khagan0x",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "bin": {
+    "rings-sdk": "./lib/sdk.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "mocha": "^10.0.0"
+  }
+}
