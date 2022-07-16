@@ -6,18 +6,18 @@ A This is an sdk for lord of the rings movies
 
 ## Installation
 
-Install rings-sdk with npm or yarn
+Install this sdk with npm or yarn
 
 ```bash
-  npm install rings-sdk --save-dev
+  npm install chukwudi-sdk --save-dev
   or
-  yarn add rings-sdk
+  yarn add chukwudi-sdk
 ```
     
 ## Usage/Examples
 
 ```javascript
-const sdk = require('rings-sdk')
+const sdk = require('chukwudi-sdk')
 
 const { books } = sdk;
 
@@ -32,7 +32,7 @@ await books.limit(100).run();
 
 - For request that require API key 
 ```javascript
-const sdk = require('rings-sdk')
+const sdk = require('chukwudi-sdk')
 
 const { chapters } = sdk;
 
